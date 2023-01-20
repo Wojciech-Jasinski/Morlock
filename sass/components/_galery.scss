@@ -1,0 +1,27 @@
+.galery-list {
+  background-color: cornflowerblue;
+  //   list-style: inside;
+  border-radius: 7px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  //   flex-direction: column;
+  //   align-items: center;
+  justify-content: center;
+
+  max-width: 610px;
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 0 auto;
+  //   margin-top: 5px;
+  margin-bottom: 10px;
+
+  &__item {
+    width: 140px;
+    height: 140px;
+    background-color: darkolivegreen;
+  }
+}

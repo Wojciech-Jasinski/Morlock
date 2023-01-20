@@ -1,0 +1,23 @@
+.menu {
+  background-color: aquamarine;
+  margin: auto;
+  //   max-width: fit-content;
+  padding: 5px;
+
+  position: sticky;
+  top: 0px;
+
+  &__item {
+    padding: 5px;
+    background-color: green;
+    width: 140px;
+    text-align: center;
+    border-radius: 7px;
+  }
+  &__item:hover,
+  &__item:focus {
+    transition-property: background-color, scale;
+    background-color: blue;
+    scale: 1.1;
+  }
+}

@@ -1,0 +1,23 @@
+footer {
+  text-align: center;
+}
+
+.footer__content {
+  background-color: fuchsia;
+  list-style: inside;
+  border-radius: 7px;
+
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 500px;
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 0 auto;
+  //   margin-top: 5px;
+  margin-bottom: 10px;
+}
