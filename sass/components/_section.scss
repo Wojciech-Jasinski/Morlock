@@ -1,9 +1,9 @@
 .section {
   width: 100%;
-  background-color: coral;
+  background-color: $body_sides_color;
 
   &__title {
-    background-color: aquamarine;
+    background-color: $art_title_bg;
     border-radius: 7px 7px 0 0;
     margin: auto;
     max-width: fit-content;
