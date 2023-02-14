@@ -1,5 +1,5 @@
 .menu {
-  background-color: aquamarine;
+  background-color: $navigation_bg;
   margin: auto;
   //   max-width: fit-content;
   padding: 5px;
@@ -8,16 +8,20 @@
   top: 0px;
 
   &__item {
+    transition-duration: 0.5s;
     padding: 5px;
-    background-color: green;
+    background-color: $button_bg_normal;
+    color: $button_txt_normal;
     width: 140px;
     text-align: center;
     border-radius: 7px;
   }
   &__item:hover,
   &__item:focus {
-    transition-property: background-color, scale;
-    background-color: blue;
+    transition-property: background-color, scale, color;
+    transition-duration: 0.08s;
+    background-color: $button_bg_focus;
+    color: $button_txt_focus;
     scale: 1.1;
   }
 }

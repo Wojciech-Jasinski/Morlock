@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  color: $txt_universal_color;
 
   &__container {
     padding: 0 50px;
@@ -7,6 +8,6 @@ body {
     /* margin: 0; */
     /* width: min-content; */
 
-    background-color: gray;
+    background-color: $body_sides_color;
   }
 }

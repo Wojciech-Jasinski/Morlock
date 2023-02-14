@@ -1,5 +1,5 @@
 .galery-list {
-  background-color: cornflowerblue;
+  background-color: $art_content_bg;
   //   list-style: inside;
   border-radius: 7px;
 
@@ -22,6 +22,6 @@
   &__item {
     width: 140px;
     height: 140px;
-    background-color: darkolivegreen;
+    background-color: $gallery_item_bg;
   }
 }

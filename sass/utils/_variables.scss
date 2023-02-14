@@ -1,0 +1,27 @@
+$txt_universal_color: black;
+$txt_link_normal: rgba(0, 0, 0, 0.7);
+// $txt_link_focus: rgb(0, 136, 255);//niebieski
+$txt_link_focus: rgb(169, 118, 8);
+
+$body_sides_color: rgb(244, 253, 255);
+// $body_middle_color: rgb(161, 211, 255, 0.5);//niebieski
+// $body_middle_color: rgba(128, 170, 206, 0.3);//niebiesko-szary
+$body_middle_color: rgba(135, 188, 216, 0.3); //cieplejszy niebiesko-szary
+// $body_middle_color: rgba(182, 212, 227, 0.3); //jasniejszy niezrobiony
+// $navigation_bg: rgba(53, 83, 136, 0.2); //jasnoszary przezroczysy
+// $navigation_bg: rgba(206, 212, 222, 0.95); //jasnoszary
+// $navigation_bg: rgba(230, 230, 230, 0.99); //kolor pomiędzy
+$navigation_bg: rgb(244, 253, 255); //białoniebieski jak tło
+
+$button_bg_normal: rgb(255, 255, 255, 0.9);
+$button_txt_normal: black;
+// $button_bg_focus: rgb(100, 157, 255, 0.9); //niebieski
+// $button_bg_focus: rgba(255, 187, 41, 0.9); //pomarańczowy
+$button_bg_focus: rgba(88, 60, 0, 0.9); //brązowy
+$button_txt_focus: white;
+
+$art_title_bg: rgb(255, 255, 255, 0.5);
+$art_content_bg: rgb(255, 255, 255, 0.5);
+$art_header_bg: rgb(255, 255, 255, 0.5);
+$art_footer_bg: rgb(255, 255, 255, 0.5);
+$gallery_item_bg: rgb(255, 255, 255, 0.5);
