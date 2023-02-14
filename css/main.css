@@ -51,6 +51,17 @@ p {
           margin-block-end: 0;
 }
 
+figure {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+}
+
 .container {
   max-width: 1000px;
   background-color: rgba(135, 188, 216, 0.3);
@@ -226,6 +237,20 @@ header {
   width: 140px;
   height: 140px;
   background-color: rgba(255, 255, 255, 0.5);
+}
+.galery-list__item figure {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.galery-list__item figure img {
+  height: 100%;
 }
 
 .technology-list {
