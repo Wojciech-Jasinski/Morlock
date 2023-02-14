@@ -8,6 +8,7 @@
   top: 0px;
 
   &__item {
+    transition-duration: 0.5s;
     padding: 5px;
     background-color: $button_bg_normal;
     color: $button_txt_normal;
@@ -17,7 +18,8 @@
   }
   &__item:hover,
   &__item:focus {
-    transition-property: background-color, scale;
+    transition-property: background-color, scale, color;
+    transition-duration: 0.08s;
     background-color: $button_bg_focus;
     color: $button_txt_focus;
     scale: 1.1;

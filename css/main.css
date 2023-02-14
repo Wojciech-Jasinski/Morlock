@@ -30,7 +30,7 @@ a {
 
 a:focus,
 a:hover {
-  color: rgb(0, 136, 255);
+  color: rgb(169, 118, 8);
 }
 
 ul {
@@ -127,24 +127,28 @@ header {
 }
 
 .menu {
-  background-color: rgba(53, 83, 136, 0.2);
+  background-color: rgb(244, 253, 255);
   margin: auto;
   padding: 5px;
   position: sticky;
   top: 0px;
 }
 .menu__item {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   color: black;
   width: 140px;
   text-align: center;
   border-radius: 7px;
 }
 .menu__item:hover, .menu__item:focus {
-  -webkit-transition-property: background-color, scale;
-  transition-property: background-color, scale;
-  background-color: rgba(100, 157, 255, 0.7);
+  -webkit-transition-property: background-color, scale, color;
+  transition-property: background-color, scale, color;
+  -webkit-transition-duration: 0.08s;
+          transition-duration: 0.08s;
+  background-color: rgba(88, 60, 0, 0.9);
   color: white;
   scale: 1.1;
 }
