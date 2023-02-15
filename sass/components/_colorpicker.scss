@@ -1,0 +1,473 @@
+.colorpicker {
+  background-color: white;
+  padding: 5px;
+  margin: auto;
+  position: fixed;
+  left: 6px;
+  top: 60px;
+  z-index: 3;
+  width: 191px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 4px;
+  justify-content: flex-start;
+  //   align-items: center;
+}
+
+.colors__square {
+  display: flex;
+  width: 33px;
+  height: 33px;
+  //   background-color: aquamarine;
+  // padding-top: 10px;
+  overflow: hidden;
+  align-items: center;
+  &:before {
+    content: "";
+    position: absolute;
+    //  top: 23px;
+    // left: 0px;
+    width: 33px;
+    height: 10px;
+    // background-color: red;
+    z-index: 4;
+  }
+}
+
+//-----------------------------------------------------
+.color-marine {
+  $txt: rgb(221, 241, 225);
+  $sides: rgb(147, 172, 169);
+  $mid: rgb(25, 73, 83, 0.3);
+  $art: rgb(0, 0, 0, 0.1);
+  $nav: rgb(147, 172, 169);
+  $btn_bg: rgb(223, 230, 224);
+  $btn_txt: black;
+  $btn_bg_focus: rgb(58, 97, 105, 0.9);
+  $btn_txt_focus: white;
+  $link_txt: rgb(0, 0, 0, 0.7);
+  $link_txt_focus: rgb(136, 134, 132);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
+.color-gray {
+  $txt: black;
+  $sides: rgb(255, 254, 244);
+  $mid: rgb(170, 171, 171, 0.5);
+  $art: rgb(255, 255, 255, 0.5);
+  $nav: rgb(255, 254, 244);
+  $btn_bg: rgb(255, 255, 255, 0.9);
+  $btn_txt: black;
+  $btn_bg_focus: rgb(83, 82, 80, 0.9);
+  $btn_txt_focus: white;
+  $link_txt: rgb(0, 0, 0, 0.7);
+  $link_txt_focus: rgb(0, 12, 14);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
+.color-blue-transparent {
+  $txt: black;
+  $sides: rgb(244, 253, 255);
+  $mid: rgb(161, 211, 255, 0.5);
+  $art: rgb(255, 255, 255, 0.5);
+  $nav: rgb(206, 218, 239, 0.6);
+  $btn_bg: rgb(255, 255, 255, 0.9);
+  $btn_txt: black;
+  $btn_bg_focus: rgb(100, 157, 255, 0.9);
+  $btn_txt_focus: white;
+  $link_txt: rgb(0, 0, 0, 0.7);
+  $link_txt_focus: rgb(68, 136, 255, 0.9);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
+.color-concrete-orange {
+  $txt: black;
+  $sides: rgb(244, 253, 255);
+  $mid: rgb(130, 130, 115, 0.3);
+  $art: rgb(255, 255, 255, 0.5);
+  $nav: rgb(208, 230, 232, 0.99);
+  $btn_bg: rgb(255, 255, 255, 0.9);
+  $btn_txt: black;
+  $btn_bg_focus: rgb(255, 187, 41, 0.9);
+  $btn_txt_focus: white;
+  $link_txt: rgb(0, 0, 0, 0.7);
+  $link_txt_focus: rgb(234, 160, 0, 0.9);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
+.color-concrete-blue {
+  $txt: black;
+  $sides: rgb(244, 253, 255);
+  $mid: rgb(130, 130, 115, 0.3);
+  $art: rgb(255, 255, 255, 0.5);
+  $nav: rgb(208, 230, 232, 0.99);
+  $btn_bg: rgb(255, 255, 255, 0.9);
+  $btn_txt: black;
+  $btn_bg_focus: rgb(100, 147, 175, 0.9);
+  $btn_txt_focus: white;
+  $link_txt: rgb(0, 0, 0, 0.7);
+  $link_txt_focus: rgb(0, 113, 179, 0.9);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
+.color-purple {
+  $txt: rgb(216, 165, 255);
+  $sides: rgb(33, 0, 58);
+  $mid: rgb(33, 0, 58);
+  $art: rgb(33, 0, 58);
+  $nav: rgb(33, 0, 58);
+  $btn_bg: rgb(76, 14, 124);
+  $btn_txt: rgb(216, 165, 255);
+  $btn_bg_focus: rgb(76, 14, 124);
+  $btn_txt_focus: rgb(216, 165, 255);
+  $link_txt: rgb(216, 165, 255, 0.6);
+  $link_txt_focus: rgb(216, 165, 255);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
+.color-blue-brown {
+  $txt: black;
+  $sides: rgb(244, 253, 255);
+  $mid: rgb(135, 188, 216, 0.3);
+  $art: rgb(255, 255, 255, 0.5);
+  $nav: rgb(244, 253, 255);
+  $btn_bg: rgb(255, 255, 255, 0.9);
+  $btn_txt: black;
+  $btn_bg_focus: rgb(88, 60, 0, 0.9);
+  $btn_txt_focus: white;
+  $link_txt: rgb(0, 0, 0, 0.7);
+  $link_txt_focus: rgb(169, 118, 8);
+
+  color: $txt;
+
+  &.colors__square {
+    background-color: $mid;
+    &::before {
+      background-color: $btn_bg_focus;
+    }
+  }
+  .section,
+  .body__container {
+    background-color: $sides;
+  }
+  .container {
+    background-color: $mid;
+  }
+
+  .menu {
+    background-color: $nav;
+    &__item {
+      background-color: $btn_bg;
+      color: $btn_txt;
+    }
+    &__item:hover,
+    &__item:focus {
+      background-color: $btn_bg_focus;
+      color: $btn_txt_focus;
+    }
+  }
+  .header__content,
+  .offer-list,
+  .offer-info,
+  .section__title,
+  .technology-list,
+  .footer__content,
+  .galery-list,
+  .galery-list__item {
+    background-color: $art;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link_txt;
+  }
+  a:focus,
+  a:hover {
+    color: $link_txt_focus;
+  }
+}
+//-----------------------------------------------------
