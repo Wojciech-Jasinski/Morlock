@@ -6,6 +6,7 @@
 
   position: sticky;
   top: 0px;
+  z-index: 2;
 
   &__item {
     transition-duration: 0.5s;

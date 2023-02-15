@@ -7,6 +7,7 @@
   font-family: "Encode Sans Semi Expanded", sans-serif;
   font-family: "Questrial", sans-serif;
   font-size: 20px;
+  position: relative;
 }
 
 h1,
@@ -143,6 +144,7 @@ header {
   padding: 5px;
   position: sticky;
   top: 0px;
+  z-index: 2;
 }
 .menu__item {
   -webkit-transition-duration: 0.5s;
