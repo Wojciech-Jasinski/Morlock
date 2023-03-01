@@ -1,4 +1,6 @@
 .colorpicker {
+  //display: flex;
+  display: none;
   background-color: white;
   padding: 5px;
   margin: auto;
@@ -7,7 +9,6 @@
   top: 60px;
   z-index: 3;
   width: 191px;
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 4px;
